@@ -53,7 +53,7 @@ def draw_shape_simple(ax, vertices, faces, color='lightblue', alpha=0.7):
 def setup_3d_plot(figsize=(10, 8), elev=25, azim=-45,
                   limits=(-2, 2), grid=True):
     """
-    Настройка 3D графика с координатной сеткой, но без осей
+    Настройка 3D графика с координатной сеткой
     """
     fig = plt.figure(figsize=figsize, dpi=100, facecolor='white')
     ax = fig.add_subplot(111, projection='3d')
